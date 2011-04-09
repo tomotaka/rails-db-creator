@@ -1,0 +1,9 @@
+
+1. add rails-dbc.rb to your PATH
+2. use it like this:
+
+$ cd some-rails-project
+$ rails-dbc.rb | mysql -u root
+
+database and user are created with database.yml's definition.
+
